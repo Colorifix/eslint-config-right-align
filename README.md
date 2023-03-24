@@ -1,10 +1,10 @@
 # eslint-config-right-align
 
 ```
-                                       If you are looking for a module that will
-                                         right-align your code... this isn't it.
+                                If you are looking for a module that will
+                                  right-align your code... this isn't it.
 
-                                                                          Sorry.
+                                                                   Sorry.
 ```
 
 
@@ -17,8 +17,8 @@ But it will hopefully help you format your code in the **right** way, using
 For instance:
 
 ```javascript
-import _      from 'lodash';
-import Vendor from './vendors';
+import { Logger } from '../utils';
+import Vendor     from './vendors';
 
 const vendorSummary = (options) => {
   const vendor     = new Vendor(options);
@@ -35,11 +35,11 @@ const vendorSummary = (options) => {
       )
     );
 
-    console.log(`${ vendorName } had ${ stockedItems } items`);
+    Logger.info(`${ vendorName } had ${ stockedItems } items`);
 
     itemCount = stockedItems.length;
   } else {
-    console.log(`${ vendorName } had no items`);
+    Logger.info(`${ vendorName } had no items`);
 
     // Being out of stock is one thing,
     // but if you never sell anything,
@@ -52,6 +52,8 @@ const vendorSummary = (options) => {
     properties : [ { type: 'Vendor' }, { itemCount } ],
   };
 };
+
+export default vendorSummary;
 ```
 
 Notice in particular how:
