@@ -117,8 +117,7 @@ module.exports = {
 ```
 
 Note that if you are currently using other general-purpose configurations in
-your ESLint `extends` (for instance `eslint:recommended`), they may conflict
-and you may need to remove them.
+your ESLint `'extends'`, putting `'right-align'` last is probably a good idea.
 
 ### Key dependencies
 
