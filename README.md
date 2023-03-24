@@ -119,6 +119,8 @@ module.exports = {
 Note that if you are currently using other general-purpose configurations in
 your ESLint `'extends'`, putting `'right-align'` last is probably a good idea.
 
+## Acknowledgements
+
 ### Key dependencies
 
 This eslint configuration is primarily built on the widely-used
@@ -141,3 +143,14 @@ set, a few key packages and rules implementations warrant highlighting:
   - `import/order`
 - ... and within the eslint core:
   - `padding-line-between-statements`
+
+### Authorship
+
+The overall approach to code formatting was worked out in 2014-2022, together
+with [Simon Brent](https://github.com/simonbrent) while working at the
+Wellcome Sanger Institute, during which time a similar set of rules came
+together as part of the [Genoverse](https://www.npmjs.com/package/genoverse)
+library, of which Simon is the author.
+
+This rule set was first published as a distinct package in 2023 in the
+course of work carried out for [Colorifix](https://colorifix.com/).
