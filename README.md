@@ -100,6 +100,7 @@ Install this module and its dependencies with `yarn` or `npm`.
 # If you have yarn:
 yarn add --save-dev \
   eslint-config-right-align \
+  eslint-config-airbnb-base \
   eslint-plugin-align-import \
   eslint-plugin-align-assignments \
   eslint-plugin-import
@@ -107,6 +108,7 @@ yarn add --save-dev \
 # Otherwise
 npm install --save-dev \
   eslint-config-right-align \
+  eslint-config-airbnb-base \
   eslint-plugin-align-import \
   eslint-plugin-align-assignments \
   eslint-plugin-import
