@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "eslint-config-right-align",
   "version": "0.1.0",
   "description": "Code linting that reinforces semantics",
   "main": "index.js",
