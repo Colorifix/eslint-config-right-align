@@ -94,12 +94,22 @@ some degree of the following, albeit with a different balance:
 
 ### Install `eslint-config-right-align` as a development dependency
 
+Install this module and its dependencies with `yarn` or `npm`.
+
 ```bash
 # If you have yarn:
-yarn add --save-dev eslint-config-right-align
+yarn add --save-dev \
+  eslint-config-right-align \
+  eslint-plugin-align-import \
+  eslint-plugin-align-assignments \
+  eslint-plugin-import
 
 # Otherwise
-npm install --save-dev eslint-config-right-align
+npm install --save-dev \
+  eslint-config-right-align \
+  eslint-plugin-align-import \
+  eslint-plugin-align-assignments \
+  eslint-plugin-import
 ```
 
 ### Configure eslint to use the `right-align` settings
