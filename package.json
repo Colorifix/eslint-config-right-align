@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-right-align",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Code linting that reinforces semantics",
   "main": "configurations/es6.js",
   "scripts": {
