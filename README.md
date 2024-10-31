@@ -1,4 +1,4 @@
-!NOTE]
+> [!NOTE]
 > This repository is no longer maintained by Colorifix.
 > 
 # eslint-config-right-align
